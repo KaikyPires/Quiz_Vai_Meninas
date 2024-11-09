@@ -14,7 +14,7 @@ body {
   justify-content: center;
   flex-direction: column;
   gap: 10px;
-  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(68,47,115,1) 50%, rgba(0,0,0,1) 100%);
+  background: radial-gradient(circle, rgba(137,103,179,1) 0%, rgba(35,6,91,1) 100%);
   
 }
 
@@ -61,13 +61,13 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #F2BB13;
+  background-color: palevioletred;
   color: white;
   transition: background-color 0.3s ease; /* Transição suave para a mudança de cor */
 }
 
 button:hover {
-  background-color: #E0A70F; 
+  background-color: pink; 
   color: #fffbe6; 
   transform: scale(1.02);
 }
@@ -138,7 +138,7 @@ button:hover {
     position: relative;
     width: 2rem;
     height: 2.4rem;
-    animation: ghost-body 0.3s ease infinite, ghost-move 5s linear infinite;
+    animation: ghost-body 0.5s ease infinite, ghost-move 10s linear infinite;
   }
 
   ghost.pinky { --ghost-variant: var(--ghost-1); }
@@ -160,9 +160,9 @@ button:hover {
   }
 
   @keyframes ghost-move {
-    from { transform: translateX(-15rem); }
-    49.99% { transform: translateX(5rem); }
-    50% { transform: translateX(7rem) scaleX(-1); }
-    60% { transform: translateX(2rem) scaleX(-1); }
-    to { transform: translateX(-15rem) scaleX(-1); }
+    from { transform: translateX(-60rem); } /* Aumentado para -60rem */
+    49.99% { transform: translateX(60rem); } /* Aumentado para 50rem */
+    50% { transform: translateX(40rem) scaleX(-1); } /* Aumentado para 40rem */
+    60% { transform: translateX(15rem) scaleX(-1); } /* Aumentado para 15rem */
+    to { transform: translateX(-45rem) scaleX(-1); } /* Aumentado para -55rem */
   }

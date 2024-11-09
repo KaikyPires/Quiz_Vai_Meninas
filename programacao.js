@@ -1,59 +1,63 @@
-export default [
-    {
-      question: "Qual é a linguagem de programação amplamente usada para o desenvolvimento web front-end?",
-      answers: [
-        { option: "JavaScript", correct: true },
-        { option: "Python", correct: false },
-        { option: "C#", correct: false },
-      ],
-    },
-    {
-      question: "Qual é o propósito do comando 'for' em muitas linguagens de programação?",
-      answers: [
-        { option: "Iterar sobre uma sequência de valores", correct: true },
-        { option: "Definir uma função", correct: false },
-        { option: "Declarar uma variável", correct: false },
-      ],
-    },
-    {
-      question: "Qual dos seguintes conceitos está associado à orientação a objetos?",
-      answers: [
-        { option: "Encapsulamento", correct: true },
-        { option: "Funções anônimas", correct: false },
-        { option: "Procedimentos", correct: false },
-      ],
-    },
-    {
-      question: "Qual é a estrutura de dados usada para armazenar pares chave-valor em Python?",
-      answers: [
-        { option: "Dicionário", correct: true },
-        { option: "Lista", correct: false },
-        { option: "Conjunto", correct: false },
-      ],
-    },
-    {
-      question: "Qual comando em SQL é utilizado para atualizar dados em uma tabela?",
-      answers: [
-        { option: "UPDATE", correct: true },
-        { option: "ALTER", correct: false },
-        { option: "INSERT", correct: false },
-      ],
-    },
-    {
-      question: "Em qual linguagem de programação a palavra-chave 'class' é usada para definir uma classe?",
-      answers: [
-        { option: "Java", correct: true },
-        { option: "HTML", correct: false },
-        { option: "SQL", correct: false },
-      ],
-    },
-    {
-      question: "Qual é o nome do processo de encontrar e corrigir erros em um programa?",
-      answers: [
-        { option: "Depuração", correct: true },
-        { option: "Compilação", correct: false },
-        { option: "Execução", correct: false },
-      ],
-    },
-  ];
-  
+const questions = [
+  {
+    question: "O que significa 'HTML'?",
+    answers: [
+    
+      { option: "Um programa de desenho", correct: false },
+      { option: "Um jogo online", correct: false },
+      { option: "Uma linguagem para criar páginas de internet", correct: true },
+      { option: "Um tipo de celular", correct: false }
+    ]
+  },
+ 
+  {
+    question: "Qual é a função da tag <a> no HTML?",
+    answers: [
+
+      { option: "Fazer uma lista", correct: false },
+      { option: "Colocar um link", correct: true },
+      { option: "Inserir uma imagem", correct: false },
+      { option: "Colocar um parágrafo", correct: false }
+    ]
+  },
+  {
+    question: "Qual destes é um exemplo de navegador de internet?",
+    answers: [
+      { option: "Chrome", correct: true },
+      { option: "Word", correct: false },
+      { option: "Excel", correct: false },
+      { option: "Paint", correct: false }
+    ]
+  },
+  {
+    question: "Qual é a função de um navegador de internet?",
+    answers: [
+      { option: "Desenhar imagens", correct: false },
+      { option: "Ajudar a acessar sites na internet", correct: true },
+      { option: "Fazer cálculos matemáticos", correct: false },
+
+      { option: "Escrever textos no computador", correct: false }
+    ]
+  },
+  {
+    question: "Qual é a primeira página que vemos quando entramos em um site?",
+    answers: [
+    
+      { option: "Página de contato", correct: false },
+      { option: "Página de produtos", correct: false },
+      { option: "Página de ajuda", correct: false },
+      { option: "Página inicial", correct: true }
+    ]
+  },
+  {
+    question: "Qual desses pode ser considerado um site?",
+    answers: [
+      { option: "www.exemplo.com.br", correct: true },
+      { option: "Um computador", correct: false },
+      { option: "Um teclado", correct: false },
+      { option: "Uma imagem", correct: false }
+    ]
+  }
+];
+
+export default questions;
