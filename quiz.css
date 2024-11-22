@@ -67,7 +67,7 @@ button {
 }
 
 button:hover {
-  background-color: pink; 
+  background-color: rgb(190, 32, 143); 
   color: #fffbe6; 
   transform: scale(1.02);
 }
