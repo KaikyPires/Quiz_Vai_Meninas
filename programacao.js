@@ -2,82 +2,82 @@ const questions = [
   {
     question: "O que é Tecnologia?",
     answers: [
-      { option: "Uma coisa que não usamos no dia a dia.", correct: false },
-      { option: "Coisas feitas por pessoas que usam conhecimento científico para resolver problemas.", correct: true },
-      { option: "Apenas computadores e celulares.", correct: false },
-      { option: "Uma forma de arte.", correct: false }
+      { option: "Ferramentas e métodos criados para resolver problemas ou facilitar tarefas.", correct: true },
+      { option: "Somente aparelhos eletrônicos, como celulares e computadores.", correct: false },
+      { option: "Coisas feitas exclusivamente por cientistas.", correct: false },
+      { option: "Objetos antigos preservados em museus.", correct: false }
     ]
   },
   {
     question: "O que é a Internet?",
     answers: [
-      { option: "Um lugar físico onde guardamos coisas.", correct: false },
-      { option: "Um jogo para computadores.", correct: false },
-      { option: "Uma rede que conecta computadores no mundo todo.", correct: true },
-      { option: "Apenas um programa usado para estudar.", correct: false }
+      { option: "Um sistema global que conecta redes de computadores para troca de informações.", correct: true },
+      { option: "Um programa que só funciona em computadores.", correct: false },
+      { option: "Uma tecnologia usada apenas para redes sociais.", correct: false },
+      { option: "Uma rede fechada de empresas de tecnologia.", correct: false }
     ]
   },
   {
     question: "Qual o objetivo da Internet?",
     answers: [
-      { option: "Conectar pessoas e compartilhar informações.", correct: true },
-      { option: "Apenas assistir vídeos.", correct: false },
-      { option: "Ajudar as pessoas a fazerem cálculos.", correct: false },
-      { option: "Criar senhas complicadas.", correct: false }
+      { option: "Facilitar a comunicação e o acesso a informações em todo o mundo.", correct: true },
+      { option: "Fornecer jogos para computadores e celulares.", correct: false },
+      { option: "Ajudar empresas a vender produtos exclusivamente.", correct: false },
+      { option: "Substituir completamente os livros e a televisão.", correct: false }
     ]
   },
   {
     question: "Onde os sites ficam hospedados?",
     answers: [
-      { option: "Em computadores especiais chamados servidores.", correct: true },
-      { option: "No computador de quem criou o site.", correct: false },
-      { option: "Na internet, mas sem precisar de nenhum lugar físico.", correct: false },
-      { option: "No celular de quem acessa.", correct: false }
+      { option: "Em servidores, que são computadores especializados.", correct: true },
+      { option: "No computador pessoal do criador do site.", correct: false },
+      { option: "Diretamente na Internet, sem precisar de nenhum equipamento físico.", correct: false },
+      { option: "Em dispositivos móveis, como celulares e tablets.", correct: false }
     ]
   },
   {
     question: "Marque a opção que contém áreas profissionais da tecnologia.",
     answers: [
-      { option: "Medicina, Engenharia Civil, Moda.", correct: false },
-      { option: "Programação, Segurança da Informação, Design de Sites.", correct: true },
-      { option: "Direito, Administração, Arquitetura.", correct: false },
-      { option: "Pintura, Música, Fotografia.", correct: false }
+      { option: "Programação, Ciência de Dados, Desenvolvimento Web.", correct: true },
+      { option: "Engenharia Civil, Direito, Administração.", correct: false },
+      { option: "Medicina, Arquitetura, Psicologia.", correct: false },
+      { option: "Design Gráfico, Moda, Marketing.", correct: false }
     ]
   },
   {
     question: "Quem foi Ada Lovelace?",
     answers: [
-      { option: "Uma criadora de aplicativos.", correct: false },
-      { option: "Uma cientista que inventou a internet.", correct: false },
-      { option: "A primeira programadora da história.", correct: true },
-      { option: "Uma designer famosa.", correct: false }
+      { option: "A primeira pessoa a criar um algoritmo para ser processado por uma máquina.", correct: true },
+      { option: "Uma engenheira que projetou os primeiros computadores.", correct: false },
+      { option: "Uma matemática que inventou a Internet.", correct: false },
+      { option: "Uma programadora famosa por desenvolver linguagens modernas.", correct: false }
     ]
   },
   {
     question: "O que é um Web Site?",
     answers: [
-      { option: "Um programa para desenhar.", correct: false },
-      { option: "Uma página na internet com informações ou serviços.", correct: true },
-      { option: "Uma ferramenta para criar apresentações.", correct: false },
-      { option: "Apenas jogos na internet.", correct: false }
+      { option: "Uma coleção de páginas interligadas na Internet, acessadas por um navegador.", correct: true },
+      { option: "Um arquivo armazenado no computador.", correct: false },
+      { option: "Uma ferramenta para criar redes de computadores.", correct: false },
+      { option: "Um aplicativo que só funciona em celulares.", correct: false }
     ]
   },
   {
     question: "Qual será o tipo de site que vamos desenvolver nessa oficina?",
     answers: [
-      { option: "Um site pessoal para compartilhar informações sobre você.", correct: true },
-      { option: "Um site de vendas de carros.", correct: false },
-      { option: "Um site para criar jogos.", correct: false },
-      { option: "Um site para assistir filmes.", correct: false }
+      { option: "Um site pessoal para apresentar informações e projetos.", correct: true },
+      { option: "Um site comercial para vendas online.", correct: false },
+      { option: "Um site para serviços financeiros.", correct: false },
+      { option: "Um site de compartilhamento de vídeos.", correct: false }
     ]
   },
   {
     question: "O que iremos utilizar para criar o site pessoal nessa oficina?",
     answers: [
-      { option: "Papel e caneta.", correct: false },
-      { option: "HTML e CSS.", correct: true },
-      { option: "Apenas o navegador.", correct: false },
-      { option: "Um aplicativo para redes sociais.", correct: false }
+      { option: "HTML e CSS, que são tecnologias para estruturar e estilizar páginas web.", correct: true },
+      { option: "Apenas editores de texto como Word ou Google Docs.", correct: false },
+      { option: "Um software específico para design gráfico.", correct: false },
+      { option: "Aplicativos de redes sociais.", correct: false }
     ]
   }
 ];
