@@ -6,7 +6,7 @@ const content = document.querySelector(".content");
 const contentFinish = document.querySelector(".finish");
 const btnRestart = document.querySelector(".finish button");
 
-import questions from "./programacao.js";
+import questions from "./programacao";
 
 let currentIndex = 0;
 let questionsCorrect = 0;
